@@ -1,0 +1,37 @@
+{
+  "name": "isliang/ilottery",
+  "description": "find lottery",
+  "version": "1.0.3",
+  "keywords": [
+    "lottery",
+    "php"
+  ],
+  "license": [
+    "Apache-2.0"
+  ],
+  "authors": [
+    {
+      "name": "yesuhuangsi",
+      "email": "yesuhuangsi@163.com",
+      "homepage": "https://github.com/isliang",
+      "role": "Owner"
+    }
+  ],
+  "require": {
+    "isliang/isf": "^1.0.0"
+  },
+  "require-dev": {
+    "swoole/ide-helper": "~4.4.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "ILottery\\": "src/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
