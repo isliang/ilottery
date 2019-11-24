@@ -147,6 +147,6 @@ class LotteryController extends IsfController
         }
         sort($r);
         $list = $this->lottery_repository->check(implode(',', $r), $blue);
-        $this->json(['code' => CodeConst::CODE_SUCCESS, 'list' => [$list]]);
+        $this->json(['code' => CodeConst::CODE_SUCCESS, 'list' => $list]);
     }
 }
