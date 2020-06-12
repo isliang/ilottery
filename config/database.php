@@ -10,13 +10,13 @@ $config = [
     'ilottery_db_master' => [
         'user' => 'root',
         'password' => 'centos',
-        'host' => '127.0.0.1',
+        'host' => 'mysql',
         'database' => 'lottery_db',
     ],
     'ilottery_db_slave' => [
         'user' => 'root',
         'password' => 'centos',
-        'host' => '127.0.0.1',
+        'host' => 'mysql',
         'database' => 'lottery_db',
     ],
 ];

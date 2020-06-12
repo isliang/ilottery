@@ -34,5 +34,5 @@ $setting = [
     'reactor_num' => swoole_cpu_num() * 4,
     'worker_num' => swoole_cpu_num() * 4,
 ];
-$server = new \Isf\Server\HttpServer('127.0.0.1', 9608, $setting);
+$server = new \Isf\Server\HttpServer(gethostbyname(gethostname()), 9608, $setting);
 $server->start();
